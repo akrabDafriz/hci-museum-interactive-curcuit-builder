@@ -885,11 +885,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: feeffc11-80e8-4b4d-9e05-5299c7ae5171
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: MuseumHCI
+  organizationId: hci-hci
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
