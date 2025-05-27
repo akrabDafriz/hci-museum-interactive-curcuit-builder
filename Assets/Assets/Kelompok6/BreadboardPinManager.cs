@@ -8,8 +8,8 @@ public class BreadboardPinManager : MonoBehaviour
     public Vector3 localStartPos = new Vector3(0, 0.1f, 0); // relatif terhadap breadboard
     public int rows = 2;
     public int columns = 5;
-    public float spacingX = 0.068f;
-    public float spacingZ = 0.068f;
+    public float spacingX = 0.000305f;
+    public float spacingZ = 0.002455f;
 
     void Start()
     {
