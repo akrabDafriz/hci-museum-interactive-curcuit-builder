@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: vccPin-Script
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":487.5644,"y":50.5644},"zoom":1.0,"elements":[{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"isInteract","$type":"System.String"},"object":null},"position":{"x":208.0,"y":-50.0},"guid":"506a31b8-4b0a-4bc7-896c-ca9dc03edd5f","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"9"},{"coroutine":false,"defaultValues":{"interactable":null},"position":{"x":416.0,"y":-58.0},"guid":"c3db8245-5e81-4ebb-8928-520cf16d390d","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SpatialInteractableOnInteract","$id":"11"},{"kind":"Object","defaultValues":{"name":{"$content":"isInteract","$type":"System.String"},"object":null},"position":{"x":662.0,"y":-50.0},"guid":"5201871d-6730-4693-8afa-a19f1a72288b","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"13"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":463.0,"y":55.0},"guid":"2efbb973-fd9d-4a80-aeb4-93b4162df039","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"15"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"09825990-e8fd-4212-9cd7-c3c29b8eba81","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"interactable","guid":"380904dd-c8c7-4b54-a3a6-82b5fab7cd39","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"bffe8c3e-d094-4ccd-9604-3f418e6418e5","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
